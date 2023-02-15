@@ -29,14 +29,49 @@
 
 
 
+// Console.Write("Input a first number: ");
+//  int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a second number: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a third number: ");
+// int num3 = Convert.ToInt32(Console.ReadLine());
+
+// int maxNum = num1;
+// if(num2 > maxNum) maxNum = num2;
+// if(num3 > maxNum) maxNum = num3;
+
+// Console.WriteLine($"of the three given numbers {num1} {num2} {num3}, the largest is {maxNum}");
+
+
+
+
 
 // Task_6. Напишите программу, которая на вход принимает число и выдаёт, 
-// является ли число чётным (делится ли оно на два без остатка).
+//         является ли число чётным (делится ли оно на два без остатка).
+
 
 // 4 -> да
 // -3 -> нет
 // 7 -> нет
 
+
+// bool EvenNum(int num, int two)
+// {
+//     if(num % two == 0)
+//         return true;
+//     else
+//         return false;
+// }
+
+//   Console.Write("Input a number: ");
+//   int number = Convert.ToInt32(Console.ReadLine());
+//   int two = 2;
+
+//   bool result = EvenNum(number, two);
+//   if(result)
+//     Console.WriteLine($"{number} is an even number");
+//     else
+//     Console.WriteLine($"{number} is an odd number");
 
 
 
