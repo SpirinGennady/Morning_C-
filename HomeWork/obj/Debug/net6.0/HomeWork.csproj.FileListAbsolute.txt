@@ -1,0 +1,15 @@
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\bin\Debug\net6.0\HomeWork.exe
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\bin\Debug\net6.0\HomeWork.deps.json
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\bin\Debug\net6.0\HomeWork.runtimeconfig.json
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\bin\Debug\net6.0\HomeWork.dll
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\bin\Debug\net6.0\HomeWork.pdb
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\HomeWork.csproj.AssemblyReference.cache
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\HomeWork.AssemblyInfoInputs.cache
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\HomeWork.AssemblyInfo.cs
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\HomeWork.csproj.CoreCompileInputs.cache
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\HomeWork.dll
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\refint\HomeWork.dll
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\HomeWork.pdb
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\HomeWork.genruntimeconfig.cache
+D:\GeekBrains\Семинары\Morning_C#\HomeWork\obj\Debug\net6.0\ref\HomeWork.dll
