@@ -80,3 +80,15 @@
 
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
+// Console.Write("Input a positive number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int two = 2;
+// int current = 2;
+
+// if(num % two == 0);
+// while(current <= num)
+// {
+//     Console.Write(current + " ");
+//     current = current+2;
+// }
