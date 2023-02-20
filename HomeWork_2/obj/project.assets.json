@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\GSpirin\\.nuget\\packages\\": {}
+    "C:\\Users\\Геннадий\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Gena\\GeekBrrains\\NewWork\\Morning_C-\\HomeWork_2\\HomeWork_2.csproj",
+      "projectUniqueName": "D:\\GeekBrains\\Семинары\\Seminars&HomeWork_C#\\Morning_C-\\HomeWork_2\\HomeWork_2.csproj",
       "projectName": "HomeWork_2",
-      "projectPath": "D:\\Gena\\GeekBrrains\\NewWork\\Morning_C-\\HomeWork_2\\HomeWork_2.csproj",
-      "packagesPath": "C:\\Users\\GSpirin\\.nuget\\packages\\",
-      "outputPath": "D:\\Gena\\GeekBrrains\\NewWork\\Morning_C-\\HomeWork_2\\obj\\",
+      "projectPath": "D:\\GeekBrains\\Семинары\\Seminars&HomeWork_C#\\Morning_C-\\HomeWork_2\\HomeWork_2.csproj",
+      "packagesPath": "C:\\Users\\Геннадий\\.nuget\\packages\\",
+      "outputPath": "D:\\GeekBrains\\Семинары\\Seminars&HomeWork_C#\\Morning_C-\\HomeWork_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GSpirin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Геннадий\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.405\\RuntimeIdentifierGraph.json"
       }
     }
   }
