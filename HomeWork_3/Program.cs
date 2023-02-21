@@ -5,6 +5,25 @@
 // 12821 -> да
 // 23432 -> да
 
+// int Palindrome(int num)
+// {
+//     int numOne = num / 10000;
+//     int numTwo = num / 1000 % 10;
+//     int numFourth = num % 100 / 10;
+//     int numFifth = num % 10;
+//     if(numOne == numFifth && numTwo == numFourth)
+//         Console.WriteLine($"{num} - this number is a palindrome");
+//     else
+//     Console.WriteLine($"{num} - this number is not a palindrome");
+//     return num;
+// }
+// Console.Write("Input a five-digit number: ");
+// int numFiveDigit = Convert.ToInt32(Console.ReadLine());
+
+// Palindrome(numFiveDigit);
+
+
+
 
 
 
