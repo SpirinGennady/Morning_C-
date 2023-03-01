@@ -154,3 +154,20 @@
 // int number = Convert.ToInt32(Console.ReadLine());
 // string binary = ToBinary(number);
 // Console.WriteLine(binary);
+
+// string ConvertToBin(int num)
+// {
+//     string result = string.Empty;
+//        while(num > 0)
+//     {
+//         result = num % 2 + result;
+//         num = num / 2;
+      
+//     }
+//     return result;
+// }
+
+// Console.Write("Input a number: ");
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine(ConvertToBin(number));
