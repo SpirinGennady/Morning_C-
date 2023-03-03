@@ -6,7 +6,6 @@
 // 2, 4 -> 16
 
 
-
 // void Construction(int a, int b)
 // {
 //     int result = 1;

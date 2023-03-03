@@ -152,4 +152,3 @@
 // Console.WriteLine("difference between the max and min array elements " + result);
 
 
-
