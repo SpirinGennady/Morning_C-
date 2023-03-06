@@ -2,11 +2,12 @@
 // Задайте двумерный массив размером m n, заполненный случайными значениями.
 
 // !!! Основное написание для двумерных массивов !!!
+
 // int[,] Create2dArray(int rows, int columns, int minValue, int maxValue)
 // {
 //     int[,] array = new int[rows, columns];
-//     for (i = 0; i < array.GetLength(0); i++)
-//         for (j = 0; j < array.GetLength(1); j++)
+//     for (int i = 0; i < array.GetLength(0); i++)
+//         for (int j = 0; j < array.GetLength(1); j++)
 
 //             array[i, j] = new Random().Next(minValue, maxValue + 1);
 //     Console.WriteLine();
@@ -16,10 +17,10 @@
 
 // void Show2dArray(int[,] array)
 // {
-//     for (i = 0; i < array.GetLength(0); i++)
+//     for (int i = 0; i < array.GetLength(0); i++)
 //     {
-//         for (j = 0; j < array.GetLength(1); j++)
-//             Console.WriteLine(array[i, j] + " ");
+//         for (int j = 0; j < array.GetLength(1); j++)
+//             Console.Write(array[i, j] + " ");
 //     Console.WriteLine();
 //     }
 //     Console.WriteLine();
@@ -122,3 +123,4 @@
 // Show2dArray(newArray);
 // int diagSum = DiagSum(newArray);
 // Console.WriteLine($"Sum of elements on main diag is: {diagSum}");
+
