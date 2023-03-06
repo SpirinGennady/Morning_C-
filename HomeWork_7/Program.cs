@@ -58,58 +58,59 @@
 
 // 1 7 -> элемента с такими индексами в массиве нет
 
-int[,] CreateRandom2dArray() {
-    Console.Write("Input a number of rows: ");
-    int rows = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Input a number of columns: ");
-    int columns = Convert.ToInt32(Console.ReadLine());
 
-    Console.Write("Input a min possible value: ");
-    int minValue = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Input a max possible value: ");
-    int maxValue = Convert.ToInt32(Console.ReadLine());
+// int[,] CreateRandom2dArray() {
+//     Console.Write("Number of rows in the array: ");
+//     int rows = Convert.ToInt32(Console.ReadLine());
+//     Console.Write("Number of columns in the array: ");
+//     int columns = Convert.ToInt32(Console.ReadLine());
 
-    int[,] array = new int[rows, columns];
-    for(int i = 0; i < rows; i++)
-        for(int j = 0; j < columns; j++)
-            array[i, j] = new Random().Next(minValue, maxValue + 1);
+//     Console.Write("Input a min possible value: ");
+//     int minValue = Convert.ToInt32(Console.ReadLine());
+//     Console.Write("Input a max possible value: ");
+//     int maxValue = Convert.ToInt32(Console.ReadLine());
 
-    return array;
-}
+//     int[,] array = new int[rows, columns];
+//     for(int i = 0; i < rows; i++)
+//         for(int j = 0; j < columns; j++)
+//             array[i, j] = new Random().Next(minValue, maxValue + 1);
 
-void Show2dArray(int[,] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-            Console.Write(array[i, j] + " ");
-    Console.WriteLine();
-    }
-    Console.WriteLine();
+//     return array;
+// }
 
-}
+// void Show2dArray(int[,] array)
+// {
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//             Console.Write(array[i, j] + " ");
+//     Console.WriteLine();
+//     }
+//     Console.WriteLine();
 
-void ElementValue(int[,] arr, int row, int col)
-{
-    if (row>=1 && row<= arr.GetLength(0)
-        && col>=1 && col<= arr.GetLength(1))
-        Console.Write($"Element value with indexes [{row},{col}]: {arr[row-1,col-1]}");
-    else
-        Console.Write($"There is no element with indexes [{row},{col}] in the array");
-}
-    Console.Write("Input a number of row: ");
-    int row = Convert.ToInt32(Console.ReadLine());
-    Console.Write("Input a number of column: ");
-    int column = Convert.ToInt32(Console.ReadLine());
+// }
+
+// void ElementValue(int[,] arr, int row, int col)
+// {
+//     if (row>=1 && row<= arr.GetLength(0)
+//         && col>=1 && col<= arr.GetLength(1))
+//         Console.Write($"Element value with indexes [{row},{col}]: {arr[row,col]}");
+//     else
+//         Console.Write($"Error: there is no element with indexes [{row},{col}] in the array!");
+// }
+//     Console.Write("Input a number of row: ");
+//     int row = Convert.ToInt32(Console.ReadLine());
+//     Console.Write("Input a number of column: ");
+//     int column = Convert.ToInt32(Console.ReadLine());
    
 
-    int[,] newArray = CreateRandom2dArray();
-    Show2dArray(newArray);
-    ElementValue(newArray,row,column);
+//     int[,] newArray = CreateRandom2dArray();
+//     Show2dArray(newArray);
+//     ElementValue(newArray,row,column);
 
 
 
-
+  
 
 // Задача 52. 
 // Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
@@ -121,20 +122,60 @@ void ElementValue(int[,] arr, int row, int col)
 // Среднее арифметическое каждого столбца: 4,6; 5,6; 3,6; 3.
 
 
+// int[,] CreateRandom2dArray() {
+//     Console.Write("Number of rows in the array: ");
+//     int rows = Convert.ToInt32(Console.ReadLine());
+//     Console.Write("Number of columns in the array: ");
+//     int columns = Convert.ToInt32(Console.ReadLine());
 
-// void IsThereNumberOrNot(int[,] array, int iIndex, int jIndex)
-// {
-//     if (iIndex < array.GetLength(0) && jIndex < array.GetLength(1)) Console.WriteLine($"The number with number of row {iIndex} and number of column {jIndex} is {array[iIndex,jIndex]}");
-//     else Console.WriteLine("Sorry, there is now number exist with those indexes");
+//     Console.Write("Input a min possible value: ");
+//     int minValue = Convert.ToInt32(Console.ReadLine());
+//     Console.Write("Input a max possible value: ");
+//     int maxValue = Convert.ToInt32(Console.ReadLine());
+
+//     int[,] array = new int[rows, columns];
+//     for(int i = 0; i < rows; i++)
+//         for(int j = 0; j < columns; j++)
+//             array[i, j] = new Random().Next(minValue, maxValue + 1);
+
+//     return array;
 // }
-// int[,] newArray =
+
+// void Show2dArray(int[,] array)
 // {
-//     {1, 4, 7, 2},
-//     {5, 9, 2, 3},
-//     {8, 4, 2, 4},
-// };
-// Console.Write("Please input a number of row: ");
-// int row = Convert.ToInt32(Console.ReadLine());
-// Console.Write("Please input a number of column: ");
-// int column = Convert.ToInt32(Console.ReadLine());
-// IsThereNumberOrNot(newArray, row, column);
+//     for (int i = 0; i < array.GetLength(0); i++)
+//     {
+//         for (int j = 0; j < array.GetLength(1); j++)
+//             Console.Write(array[i, j] + " ");
+//     Console.WriteLine();
+//     }
+//     Console.WriteLine();
+
+// }
+
+// double[] ArithmeticMeansOfNumbers(int[,] arr)
+// {
+//     double[] resultArray = new double[arr.GetLength(1)];
+//     double sum = 0;
+
+//     for (int i = 0; i < arr.GetLength(1); i++)
+//     {
+//         sum = 0;    
+//         for (int j = 0; j < arr.GetLength(0); j++)
+//            sum += arr[j,i];
+           
+//         resultArray[i] = sum / arr.GetLength(0);
+//     }  
+    
+//     return resultArray;
+// }
+
+// int[,] arr = CreateRandom2dArray();
+
+// double[] arrArithmeticMeansOfNumbers = ArithmeticMeansOfNumbers(arr);
+
+// Show2dArray(arr);
+
+// Console.Write("Arithmetic mean of each column: ");
+// for (int i = 0; i < arrArithmeticMeansOfNumbers.Length; i++)
+//     Console.Write(Math.Round(arrArithmeticMeansOfNumbers[i], 1) + " ");
