@@ -90,6 +90,7 @@
 // int rows = Convert.ToInt32(Console.ReadLine());
 // Console.Write("Input a number of columns: ");
 // int columns = Convert.ToInt32(Console.ReadLine());
+
 // int[,] newArray = CreateArray(rows, columns);
 // Show2dArray(newArray);
 

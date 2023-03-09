@@ -1,0 +1,15 @@
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\Test.csproj.AssemblyReference.cache
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\Test.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\Test.AssemblyInfoInputs.cache
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\Test.AssemblyInfo.cs
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\Test.csproj.CoreCompileInputs.cache
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\bin\Debug\net6.0\Test.exe
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\bin\Debug\net6.0\Test.deps.json
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\bin\Debug\net6.0\Test.runtimeconfig.json
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\bin\Debug\net6.0\Test.dll
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\bin\Debug\net6.0\Test.pdb
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\Test.dll
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\refint\Test.dll
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\Test.pdb
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\Test.genruntimeconfig.cache
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\Test\obj\Debug\net6.0\ref\Test.dll
