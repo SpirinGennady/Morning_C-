@@ -39,7 +39,6 @@
 //     int[,] newArray = Create2dArray(rows, columns, minValue, maxValue);
 //     Show2dArray(newArray);
 
-
 // Частный случай !!!!
 // int[,] CreateRandom2dArray() {
 //     Console.Write("Input a number of rows: ");
