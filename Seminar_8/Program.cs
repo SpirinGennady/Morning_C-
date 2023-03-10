@@ -100,7 +100,6 @@
 //             result[1] = j;
 //         }
 //     return result;
- 
 // }
 
 // int[,] RemoveRowAndColums(int[,] array, int row, int col){
