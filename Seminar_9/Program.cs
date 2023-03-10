@@ -56,6 +56,16 @@
 //     }
 // }
 
+// void ShowNums(int n, int m)
+// {
+//      if(n > m) ShowNums(n, m + 1); // первое число оставляем неизменным
+//      if(n < m) ShowNums(n, m - 1);
+//      Console.Write(m + " ");       // выводим на возвращении
+// }
+// ShowNums(8, 5);
+// Console.WriteLine();
+// ShowNums(5, 8);
+
 // ShowNums(5, 1);
 // Console.WriteLine();
 // ShowNums(1, 5);
