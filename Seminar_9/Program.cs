@@ -4,7 +4,7 @@
 
 // void ShowNums(int num) 
 // {
-     // Console.Write(num + " "); // показывает на этапе погружения в терминале
+//      Console.Write(num + " "); // показывает на этапе погружения в терминале
 //     if (num > 1) ShowNums(num - 1);
 //     Console.Write(num + " "); // показывает на этапе возвращения в терминале
 // }
