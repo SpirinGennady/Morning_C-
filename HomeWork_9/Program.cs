@@ -5,16 +5,23 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
-// void NaturalNumbers(int n)
+// void NaturalNumbers(int m, int n)
 // {
-//     Console.Write(n + " ");
-//     if ( n > 1) NaturalNumbers(n - 1);
-//     Console.Write(n + " ");
+//     if (n >= m)
+//     {
+//         NaturalNumbers(m + 1, n);
+//         Console.Write(m + " ");
+//     }
+//         else if (n < 0)
+//          Console.WriteLine("Error: number is not natural! Please try again.");
+   
 // }
-// Console.Write("Input a natural number: ");
-// int num = Convert.ToInt32(Console.ReadLine());
 
-// NaturalNumbers(num);
+// Console.Write("Input a natural number: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int m = 1;
+// NaturalNumbers(m, n);
+
 
 
 
@@ -24,23 +31,23 @@
 // M = 1; N = 15 -> 120
 // M = 4; N = 8. -> 30
 
-int SumElemets(int m, int n)
-{
-    if ( m > n)
-    {
-        for (int current = m; current < n; current ++)
-        sum += current;
-    return sum;
-    }
-    return SumElemets;
-}
 
-Console.Write("Input a first number: ");
-int numM = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input a second number: ");
-int numN = Convert.ToInt32(Console.ReadLine());
 
-SumElemets(numM, numN);
+// int SumDigits(int numM, int numN)
+// {
+// 	if (numM > 0 && numN > 0)
+// 	{
+// 		if (numM < numN) return numM + SumDigits(numM + 1, numN);
+// 		if (numM > numN) return numM + SumDigits(numM - 1, numN);
+// 		else return numM;
+// 	}
+// 	return -1;
+// }
+// Console.Write("Input a first number: ");
+// int numM = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a second number: ");
+// int numN = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine($"Your result: {SumDigits(numM, numN)}");
 
 
 
@@ -50,3 +57,20 @@ SumElemets(numM, numN);
 // m = 3, n = 2 -> A(m,n) = 29
 
 
+// int FunctionAkkerman(int m, int n)
+// {
+//     if (m >= 0 && n >= 0)
+//     {
+//      if (m == 0) return n + 1;
+//      if (n == 0) return FunctionAkkerman(m - 1, 1);
+//         else return FunctionAkkerman(m - 1, FunctionAkkerman(m, n - 1));
+//     }
+//     return -1;
+// }
+
+// Console.Write("Input a first number: ");
+// int numM = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Input a second number: ");
+// int numN = Convert.ToInt32(Console.ReadLine());
+
+// Console.WriteLine($"calculating the Ackerman function: {FunctionAkkerman(numM, numN)}");
