@@ -5,7 +5,24 @@
 // N = 5 -> "5, 4, 3, 2, 1"
 // N = 8 -> "8, 7, 6, 5, 4, 3, 2, 1"
 
-// void NaturalNumbers(int m, int n)
+// void NaturalNumbers(int n)  //первый способ, более энергоёмкий, но мне не особо понятный: вывод при погружении.
+// {
+//     if (n >= 1)
+//     {
+//         Console.Write(n + " ");
+//         NaturalNumbers(n - 1);
+//     }
+//         else if (n < 0)
+//          Console.WriteLine("Error: number is not natural! Please try again.");
+   
+// }
+
+// Console.Write("Input a natural number: ");
+// int n = Convert.ToInt32(Console.ReadLine());
+
+// NaturalNumbers(n);
+
+// void NaturalNumbers(int m, int n)  // второй способ, перегружающий оперативку, но мне ближе
 // {
 //     if (n >= m)
 //     {
