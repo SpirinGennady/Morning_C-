@@ -1,0 +1,15 @@
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\bin\Debug\net6.0\FinalTask.exe
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\bin\Debug\net6.0\FinalTask.deps.json
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\bin\Debug\net6.0\FinalTask.runtimeconfig.json
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\bin\Debug\net6.0\FinalTask.dll
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\bin\Debug\net6.0\FinalTask.pdb
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\FinalTask.csproj.AssemblyReference.cache
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\FinalTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\FinalTask.AssemblyInfoInputs.cache
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\FinalTask.AssemblyInfo.cs
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\FinalTask.csproj.CoreCompileInputs.cache
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\FinalTask.dll
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\refint\FinalTask.dll
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\FinalTask.pdb
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\FinalTask.genruntimeconfig.cache
+D:\GeekBrains\Семинары\Seminars&HomeWork_C#\Morning_C-\FinalTask\obj\Debug\net6.0\ref\FinalTask.dll
